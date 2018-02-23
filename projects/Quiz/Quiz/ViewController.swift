@@ -9,16 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-  /**
-   * Connections
-   */
+  // Connections
   @IBOutlet weak var questionLabel: UILabel!
   @IBOutlet weak var answerLabel: UILabel!
 
-  /**
-   * variables
-   * @type {[type]}
-   */
+  // variables
   var currentQuestionIndex: Int = 0
   let questions: [String] = [
     "What is 7+7?",
@@ -31,6 +26,7 @@ class ViewController: UIViewController {
     "Grapes"
   ]
 
+  // System Functions
   override func viewDidLoad() {
     super.viewDidLoad()
     questionLabel.text = questions[currentQuestionIndex]
@@ -41,6 +37,15 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
+
+
+  // My functions
+
+  /**
+   * Action will be executed when user press button in view
+   * 'Next question'
+   * @param  {UIButton} _ sender:       UIButton receive instance of UIButton
+   */
   @IBAction func showNextQuestion(_ sender: UIButton) {
     currentQuestionIndex += 1
     if currentQuestionIndex == questions.count {
@@ -51,6 +56,11 @@ class ViewController: UIViewController {
     answerLabel.text = "???"
   }
 
+  /**
+   * Action will be executed when user press button in view
+   * 'Show Answer'
+   * @param  {UIButton} _ sender:       UIButton receive instance of UIButton
+   */
   @IBAction func showAnswer(_ sender: UIButton) {
     let answer: String = answers[currentQuestionIndex]
     answerLabel.text = answer
