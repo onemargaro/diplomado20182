@@ -1,3 +1,7 @@
-# diplomado20182
+## Margarito Sánchez Baños
 
-# hola mundo
+* Notas:
+
+### Dia 3:
+
+* Low Level vitual machine
