@@ -1,3 +1,5 @@
 *.sublime-workspace
 *.DS_Store
-contents.xcplayground
+*.xcplayground
+*.xctimeline
+wiki
