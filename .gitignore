@@ -2,4 +2,5 @@
 *.DS_Store
 *.xcplayground
 *.xctimeline
+playground/*.playground/playground.xcworkspace
 wiki
