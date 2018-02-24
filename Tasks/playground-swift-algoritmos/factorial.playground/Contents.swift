@@ -10,4 +10,4 @@ func factorial(n: Int) -> Int{
   }
 }
 
-factorial(n: 6)
+// factorial(n: 6)
