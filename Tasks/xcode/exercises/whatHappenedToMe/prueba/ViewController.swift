@@ -10,23 +10,27 @@ import UIKit
 
 class ViewController: UIViewController {
 
-     weak var outtletText: UITextField!
+    // weak var outtletText: UITextField!
+    // Error: Faltaba el @IBOutlet para concetarlo con el storyboard y la variable tenia un typo
+    @IBOutlet weak var outletText: UITextField!
     @IBOutlet weak var aoutletButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         aoutletButton.setTitle("Touch me!", for: .normal)
-        
+
     }
 
-    func actionButton(_ sender: Any) {
-        outtletText.text = "You are a genius "
+    // func actionButton(_ sender: Any) {
+    // Error: Faltaba el @IBAction
+    @IBAction func actionButton(_ sender: Any) {
+        outletText.text = "You are a genius "
     }
+
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
