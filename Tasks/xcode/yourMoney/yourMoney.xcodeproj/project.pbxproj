@@ -14,6 +14,7 @@
 		EA2FAF04205C812100295E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2FAF02205C812100295E31 /* LaunchScreen.storyboard */; };
 		EA2FAF0F205C812100295E31 /* yourMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2FAF0E205C812100295E31 /* yourMoneyTests.swift */; };
 		EA2FAF1A205C812100295E31 /* yourMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2FAF19205C812100295E31 /* yourMoneyUITests.swift */; };
+		EA9D445A2077E536008894E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D44592077E536008894E0 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EA2FAF15205C812100295E31 /* yourMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yourMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2FAF19205C812100295E31 /* yourMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourMoneyUITests.swift; sourceTree = "<group>"; };
 		EA2FAF1B205C812100295E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9D44592077E536008894E0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,8 @@
 		EA2FAEF8205C812000295E31 /* yourMoney */ = {
 			isa = PBXGroup;
 			children = (
+				EA9D44582077E50F008894E0 /* Controllers */,
 				EA2FAEF9205C812000295E31 /* AppDelegate.swift */,
-				EA2FAEFB205C812100295E31 /* ViewController.swift */,
 				EA2FAEFD205C812100295E31 /* Main.storyboard */,
 				EA2FAF00205C812100295E31 /* Assets.xcassets */,
 				EA2FAF02205C812100295E31 /* LaunchScreen.storyboard */,
@@ -123,6 +125,15 @@
 				EA2FAF1B205C812100295E31 /* Info.plist */,
 			);
 			path = yourMoneyUITests;
+			sourceTree = "<group>";
+		};
+		EA9D44582077E50F008894E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA2FAEFB205C812100295E31 /* ViewController.swift */,
+				EA9D44592077E536008894E0 /* LoginViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9D445A2077E536008894E0 /* LoginViewController.swift in Sources */,
 				EA2FAEFC205C812100295E31 /* ViewController.swift in Sources */,
 				EA2FAEFA205C812000295E31 /* AppDelegate.swift in Sources */,
 			);
