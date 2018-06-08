@@ -14,6 +14,7 @@
 		EA2FAF04205C812100295E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2FAF02205C812100295E31 /* LaunchScreen.storyboard */; };
 		EA2FAF0F205C812100295E31 /* yourMoneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2FAF0E205C812100295E31 /* yourMoneyTests.swift */; };
 		EA2FAF1A205C812100295E31 /* yourMoneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2FAF19205C812100295E31 /* yourMoneyUITests.swift */; };
+		EA7E75B420C1E98300405915 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7E75B320C1E98300405915 /* RegisterViewController.swift */; };
 		EA9D445A2077E536008894E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9D44592077E536008894E0 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		EA2FAF15205C812100295E31 /* yourMoneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yourMoneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2FAF19205C812100295E31 /* yourMoneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourMoneyUITests.swift; sourceTree = "<group>"; };
 		EA2FAF1B205C812100295E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA7E75B320C1E98300405915 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		EA9D44592077E536008894E0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 			children = (
 				EA2FAEFB205C812100295E31 /* ViewController.swift */,
 				EA9D44592077E536008894E0 /* LoginViewController.swift */,
+				EA7E75B320C1E98300405915 /* RegisterViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				EA9D445A2077E536008894E0 /* LoginViewController.swift in Sources */,
 				EA2FAEFC205C812100295E31 /* ViewController.swift in Sources */,
 				EA2FAEFA205C812000295E31 /* AppDelegate.swift in Sources */,
+				EA7E75B420C1E98300405915 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
