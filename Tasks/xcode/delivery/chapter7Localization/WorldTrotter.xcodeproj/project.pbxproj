@@ -3,73 +3,79 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA44081E207FBE7B00F1C2E4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA44081D207FBE7A00F1C2E4 /* MapKit.framework */; };
-		EA440820207FC2B500F1C2E4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA44081F207FC2B500F1C2E4 /* MapViewController.swift */; };
-		EAAE56B92052315B0068C1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE56B82052315B0068C1D4 /* AppDelegate.swift */; };
-		EAAE56BE2052315B0068C1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAE56BC2052315B0068C1D4 /* Main.storyboard */; };
-		EAAE56C02052315B0068C1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAE56BF2052315B0068C1D4 /* Assets.xcassets */; };
-		EAAE56C32052315B0068C1D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAE56C12052315B0068C1D4 /* LaunchScreen.storyboard */; };
-		EAAE56CE2052315C0068C1D4 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE56CD2052315C0068C1D4 /* WorldTrotterTests.swift */; };
-		EAAE56D92052315C0068C1D4 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAE56D82052315C0068C1D4 /* WorldTrotterUITests.swift */; };
-		EABD6C9A2073DC810094B967 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABD6C992073DC810094B967 /* ConversionViewController.swift */; };
+		6B53BD431D58BF590076AE5C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B53BD421D58BF590076AE5C /* MapKit.framework */; };
+		6BB4AB441B7A5D4200967615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4AB431B7A5D4200967615 /* AppDelegate.swift */; };
+		6BB4AB491B7A5D4200967615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4AB471B7A5D4200967615 /* Main.storyboard */; };
+		6BB4AB4B1B7A5D4200967615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4AB4A1B7A5D4200967615 /* Assets.xcassets */; };
+		6BB4AB4E1B7A5D4200967615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4AB4C1B7A5D4200967615 /* LaunchScreen.storyboard */; };
+		6BB4AB591B7A5D4200967615 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4AB581B7A5D4200967615 /* WorldTrotterTests.swift */; };
+		6BB4AB641B7A5D4200967615 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4AB631B7A5D4200967615 /* WorldTrotterUITests.swift */; };
+		6BB4AB721B7BD4C500967615 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4AB711B7BD4C500967615 /* ConversionViewController.swift */; };
+		6BB4AB781B7BFBA700967615 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB4AB771B7BFBA700967615 /* MapViewController.swift */; };
+		6BB4ABBE1B8291D600967615 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6BB4ABC01B8291D600967615 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EAAE56CA2052315C0068C1D4 /* PBXContainerItemProxy */ = {
+		6BB4AB551B7A5D4200967615 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EAAE56AD2052315B0068C1D4 /* Project object */;
+			containerPortal = 6BB4AB381B7A5D4200967615 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EAAE56B42052315B0068C1D4;
+			remoteGlobalIDString = 6BB4AB3F1B7A5D4200967615;
 			remoteInfo = WorldTrotter;
 		};
-		EAAE56D52052315C0068C1D4 /* PBXContainerItemProxy */ = {
+		6BB4AB601B7A5D4200967615 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EAAE56AD2052315B0068C1D4 /* Project object */;
+			containerPortal = 6BB4AB381B7A5D4200967615 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EAAE56B42052315B0068C1D4;
+			remoteGlobalIDString = 6BB4AB3F1B7A5D4200967615;
 			remoteInfo = WorldTrotter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA44081D207FBE7A00F1C2E4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		EA44081F207FC2B500F1C2E4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		EAAE56B52052315B0068C1D4 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAAE56B82052315B0068C1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EAAE56BD2052315B0068C1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EAAE56BF2052315B0068C1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EAAE56C22052315B0068C1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EAAE56C42052315B0068C1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAAE56C92052315C0068C1D4 /* WorldTrotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAAE56CD2052315C0068C1D4 /* WorldTrotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterTests.swift; sourceTree = "<group>"; };
-		EAAE56CF2052315C0068C1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAAE56D42052315C0068C1D4 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAAE56D82052315C0068C1D4 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
-		EAAE56DA2052315C0068C1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EABD6C992073DC810094B967 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		6B53BD421D58BF590076AE5C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6BB4AB401B7A5D4200967615 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB4AB431B7A5D4200967615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BB4AB481B7A5D4200967615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BB4AB4A1B7A5D4200967615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BB4AB4D1B7A5D4200967615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BB4AB4F1B7A5D4200967615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB4AB541B7A5D4200967615 /* WorldTrotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB4AB581B7A5D4200967615 /* WorldTrotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterTests.swift; sourceTree = "<group>"; };
+		6BB4AB5A1B7A5D4200967615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB4AB5F1B7A5D4200967615 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB4AB631B7A5D4200967615 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
+		6BB4AB651B7A5D4200967615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB4AB711B7BD4C500967615 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
+		6BB4AB771B7BFBA700967615 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6BB4ABBA1B828AC300967615 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		6BB4ABBB1B828CB000967615 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		6BB4ABBF1B8291D600967615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6BB4ABC11B8291D800967615 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6BB4ABC21B8291D900967615 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EAAE56B22052315B0068C1D4 /* Frameworks */ = {
+		6BB4AB3D1B7A5D4200967615 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA44081E207FBE7B00F1C2E4 /* MapKit.framework in Frameworks */,
+				6B53BD431D58BF590076AE5C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAAE56C62052315C0068C1D4 /* Frameworks */ = {
+		6BB4AB511B7A5D4200967615 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAAE56D12052315C0068C1D4 /* Frameworks */ = {
+		6BB4AB5C1B7A5D4200967615 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,63 +85,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA44081C207FBE7A00F1C2E4 /* Frameworks */ = {
+		6B53BD411D58BF590076AE5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA44081D207FBE7A00F1C2E4 /* MapKit.framework */,
+				6B53BD421D58BF590076AE5C /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EAAE56AC2052315B0068C1D4 = {
+		6BB4AB371B7A5D4200967615 = {
 			isa = PBXGroup;
 			children = (
-				EAAE56B72052315B0068C1D4 /* WorldTrotter */,
-				EAAE56CC2052315C0068C1D4 /* WorldTrotterTests */,
-				EAAE56D72052315C0068C1D4 /* WorldTrotterUITests */,
-				EAAE56B62052315B0068C1D4 /* Products */,
-				EA44081C207FBE7A00F1C2E4 /* Frameworks */,
+				6BB4AB421B7A5D4200967615 /* WorldTrotter */,
+				6BB4AB571B7A5D4200967615 /* WorldTrotterTests */,
+				6BB4AB621B7A5D4200967615 /* WorldTrotterUITests */,
+				6BB4AB411B7A5D4200967615 /* Products */,
+				6B53BD411D58BF590076AE5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		EAAE56B62052315B0068C1D4 /* Products */ = {
+		6BB4AB411B7A5D4200967615 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAAE56B52052315B0068C1D4 /* WorldTrotter.app */,
-				EAAE56C92052315C0068C1D4 /* WorldTrotterTests.xctest */,
-				EAAE56D42052315C0068C1D4 /* WorldTrotterUITests.xctest */,
+				6BB4AB401B7A5D4200967615 /* WorldTrotter.app */,
+				6BB4AB541B7A5D4200967615 /* WorldTrotterTests.xctest */,
+				6BB4AB5F1B7A5D4200967615 /* WorldTrotterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EAAE56B72052315B0068C1D4 /* WorldTrotter */ = {
+		6BB4AB421B7A5D4200967615 /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
-				EAAE56B82052315B0068C1D4 /* AppDelegate.swift */,
-				EAAE56BC2052315B0068C1D4 /* Main.storyboard */,
-				EA44081F207FC2B500F1C2E4 /* MapViewController.swift */,
-				EAAE56BF2052315B0068C1D4 /* Assets.xcassets */,
-				EAAE56C12052315B0068C1D4 /* LaunchScreen.storyboard */,
-				EAAE56C42052315B0068C1D4 /* Info.plist */,
-				EABD6C992073DC810094B967 /* ConversionViewController.swift */,
+				6BB4AB431B7A5D4200967615 /* AppDelegate.swift */,
+				6BB4AB711B7BD4C500967615 /* ConversionViewController.swift */,
+				6BB4AB471B7A5D4200967615 /* Main.storyboard */,
+				6BB4AB771B7BFBA700967615 /* MapViewController.swift */,
+				6BB4ABC01B8291D600967615 /* Localizable.strings */,
+				6BB4AB4A1B7A5D4200967615 /* Assets.xcassets */,
+				6BB4AB4C1B7A5D4200967615 /* LaunchScreen.storyboard */,
+				6BB4AB4F1B7A5D4200967615 /* Info.plist */,
 			);
 			path = WorldTrotter;
 			sourceTree = "<group>";
 		};
-		EAAE56CC2052315C0068C1D4 /* WorldTrotterTests */ = {
+		6BB4AB571B7A5D4200967615 /* WorldTrotterTests */ = {
 			isa = PBXGroup;
 			children = (
-				EAAE56CD2052315C0068C1D4 /* WorldTrotterTests.swift */,
-				EAAE56CF2052315C0068C1D4 /* Info.plist */,
+				6BB4AB581B7A5D4200967615 /* WorldTrotterTests.swift */,
+				6BB4AB5A1B7A5D4200967615 /* Info.plist */,
 			);
 			path = WorldTrotterTests;
 			sourceTree = "<group>";
 		};
-		EAAE56D72052315C0068C1D4 /* WorldTrotterUITests */ = {
+		6BB4AB621B7A5D4200967615 /* WorldTrotterUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EAAE56D82052315C0068C1D4 /* WorldTrotterUITests.swift */,
-				EAAE56DA2052315C0068C1D4 /* Info.plist */,
+				6BB4AB631B7A5D4200967615 /* WorldTrotterUITests.swift */,
+				6BB4AB651B7A5D4200967615 /* Info.plist */,
 			);
 			path = WorldTrotterUITests;
 			sourceTree = "<group>";
@@ -143,13 +150,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EAAE56B42052315B0068C1D4 /* WorldTrotter */ = {
+		6BB4AB3F1B7A5D4200967615 /* WorldTrotter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAAE56DD2052315C0068C1D4 /* Build configuration list for PBXNativeTarget "WorldTrotter" */;
+			buildConfigurationList = 6BB4AB681B7A5D4200967615 /* Build configuration list for PBXNativeTarget "WorldTrotter" */;
 			buildPhases = (
-				EAAE56B12052315B0068C1D4 /* Sources */,
-				EAAE56B22052315B0068C1D4 /* Frameworks */,
-				EAAE56B32052315B0068C1D4 /* Resources */,
+				6BB4AB3C1B7A5D4200967615 /* Sources */,
+				6BB4AB3D1B7A5D4200967615 /* Frameworks */,
+				6BB4AB3E1B7A5D4200967615 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,110 +164,112 @@
 			);
 			name = WorldTrotter;
 			productName = WorldTrotter;
-			productReference = EAAE56B52052315B0068C1D4 /* WorldTrotter.app */;
+			productReference = 6BB4AB401B7A5D4200967615 /* WorldTrotter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EAAE56C82052315C0068C1D4 /* WorldTrotterTests */ = {
+		6BB4AB531B7A5D4200967615 /* WorldTrotterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAAE56E02052315C0068C1D4 /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */;
+			buildConfigurationList = 6BB4AB6B1B7A5D4200967615 /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */;
 			buildPhases = (
-				EAAE56C52052315C0068C1D4 /* Sources */,
-				EAAE56C62052315C0068C1D4 /* Frameworks */,
-				EAAE56C72052315C0068C1D4 /* Resources */,
+				6BB4AB501B7A5D4200967615 /* Sources */,
+				6BB4AB511B7A5D4200967615 /* Frameworks */,
+				6BB4AB521B7A5D4200967615 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EAAE56CB2052315C0068C1D4 /* PBXTargetDependency */,
+				6BB4AB561B7A5D4200967615 /* PBXTargetDependency */,
 			);
 			name = WorldTrotterTests;
 			productName = WorldTrotterTests;
-			productReference = EAAE56C92052315C0068C1D4 /* WorldTrotterTests.xctest */;
+			productReference = 6BB4AB541B7A5D4200967615 /* WorldTrotterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EAAE56D32052315C0068C1D4 /* WorldTrotterUITests */ = {
+		6BB4AB5E1B7A5D4200967615 /* WorldTrotterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAAE56E32052315C0068C1D4 /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */;
+			buildConfigurationList = 6BB4AB6E1B7A5D4200967615 /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */;
 			buildPhases = (
-				EAAE56D02052315C0068C1D4 /* Sources */,
-				EAAE56D12052315C0068C1D4 /* Frameworks */,
-				EAAE56D22052315C0068C1D4 /* Resources */,
+				6BB4AB5B1B7A5D4200967615 /* Sources */,
+				6BB4AB5C1B7A5D4200967615 /* Frameworks */,
+				6BB4AB5D1B7A5D4200967615 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EAAE56D62052315C0068C1D4 /* PBXTargetDependency */,
+				6BB4AB611B7A5D4200967615 /* PBXTargetDependency */,
 			);
 			name = WorldTrotterUITests;
 			productName = WorldTrotterUITests;
-			productReference = EAAE56D42052315C0068C1D4 /* WorldTrotterUITests.xctest */;
+			productReference = 6BB4AB5F1B7A5D4200967615 /* WorldTrotterUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EAAE56AD2052315B0068C1D4 /* Project object */ = {
+		6BB4AB381B7A5D4200967615 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = Margaro;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
 				TargetAttributes = {
-					EAAE56B42052315B0068C1D4 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+					6BB4AB3F1B7A5D4200967615 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 35KQ284J6K;
+						LastSwiftMigration = 0800;
 					};
-					EAAE56C82052315C0068C1D4 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = EAAE56B42052315B0068C1D4;
+					6BB4AB531B7A5D4200967615 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+						TestTargetID = 6BB4AB3F1B7A5D4200967615;
 					};
-					EAAE56D32052315C0068C1D4 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = EAAE56B42052315B0068C1D4;
+					6BB4AB5E1B7A5D4200967615 = {
+						CreatedOnToolsVersion = 7.0;
+						LastSwiftMigration = 0800;
+						TestTargetID = 6BB4AB3F1B7A5D4200967615;
 					};
 				};
 			};
-			buildConfigurationList = EAAE56B02052315B0068C1D4 /* Build configuration list for PBXProject "WorldTrotter" */;
-			compatibilityVersion = "Xcode 8.0";
-			developmentRegion = en;
+			buildConfigurationList = 6BB4AB3B1B7A5D4200967615 /* Build configuration list for PBXProject "WorldTrotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
-			mainGroup = EAAE56AC2052315B0068C1D4;
-			productRefGroup = EAAE56B62052315B0068C1D4 /* Products */;
+			mainGroup = 6BB4AB371B7A5D4200967615;
+			productRefGroup = 6BB4AB411B7A5D4200967615 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAAE56B42052315B0068C1D4 /* WorldTrotter */,
-				EAAE56C82052315C0068C1D4 /* WorldTrotterTests */,
-				EAAE56D32052315C0068C1D4 /* WorldTrotterUITests */,
+				6BB4AB3F1B7A5D4200967615 /* WorldTrotter */,
+				6BB4AB531B7A5D4200967615 /* WorldTrotterTests */,
+				6BB4AB5E1B7A5D4200967615 /* WorldTrotterUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EAAE56B32052315B0068C1D4 /* Resources */ = {
+		6BB4AB3E1B7A5D4200967615 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAAE56C32052315B0068C1D4 /* LaunchScreen.storyboard in Resources */,
-				EAAE56C02052315B0068C1D4 /* Assets.xcassets in Resources */,
-				EAAE56BE2052315B0068C1D4 /* Main.storyboard in Resources */,
+				6BB4AB4E1B7A5D4200967615 /* LaunchScreen.storyboard in Resources */,
+				6BB4ABBE1B8291D600967615 /* Localizable.strings in Resources */,
+				6BB4AB4B1B7A5D4200967615 /* Assets.xcassets in Resources */,
+				6BB4AB491B7A5D4200967615 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAAE56C72052315C0068C1D4 /* Resources */ = {
+		6BB4AB521B7A5D4200967615 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAAE56D22052315C0068C1D4 /* Resources */ = {
+		6BB4AB5D1B7A5D4200967615 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,104 +279,105 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EAAE56B12052315B0068C1D4 /* Sources */ = {
+		6BB4AB3C1B7A5D4200967615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EABD6C9A2073DC810094B967 /* ConversionViewController.swift in Sources */,
-				EA440820207FC2B500F1C2E4 /* MapViewController.swift in Sources */,
-				EAAE56B92052315B0068C1D4 /* AppDelegate.swift in Sources */,
+				6BB4AB721B7BD4C500967615 /* ConversionViewController.swift in Sources */,
+				6BB4AB781B7BFBA700967615 /* MapViewController.swift in Sources */,
+				6BB4AB441B7A5D4200967615 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAAE56C52052315C0068C1D4 /* Sources */ = {
+		6BB4AB501B7A5D4200967615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAAE56CE2052315C0068C1D4 /* WorldTrotterTests.swift in Sources */,
+				6BB4AB591B7A5D4200967615 /* WorldTrotterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAAE56D02052315C0068C1D4 /* Sources */ = {
+		6BB4AB5B1B7A5D4200967615 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAAE56D92052315C0068C1D4 /* WorldTrotterUITests.swift in Sources */,
+				6BB4AB641B7A5D4200967615 /* WorldTrotterUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EAAE56CB2052315C0068C1D4 /* PBXTargetDependency */ = {
+		6BB4AB561B7A5D4200967615 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EAAE56B42052315B0068C1D4 /* WorldTrotter */;
-			targetProxy = EAAE56CA2052315C0068C1D4 /* PBXContainerItemProxy */;
+			target = 6BB4AB3F1B7A5D4200967615 /* WorldTrotter */;
+			targetProxy = 6BB4AB551B7A5D4200967615 /* PBXContainerItemProxy */;
 		};
-		EAAE56D62052315C0068C1D4 /* PBXTargetDependency */ = {
+		6BB4AB611B7A5D4200967615 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EAAE56B42052315B0068C1D4 /* WorldTrotter */;
-			targetProxy = EAAE56D52052315C0068C1D4 /* PBXContainerItemProxy */;
+			target = 6BB4AB3F1B7A5D4200967615 /* WorldTrotter */;
+			targetProxy = 6BB4AB601B7A5D4200967615 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EAAE56BC2052315B0068C1D4 /* Main.storyboard */ = {
+		6BB4AB471B7A5D4200967615 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EAAE56BD2052315B0068C1D4 /* Base */,
+				6BB4AB481B7A5D4200967615 /* Base */,
+				6BB4ABBA1B828AC300967615 /* en */,
+				6BB4ABBB1B828CB000967615 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EAAE56C12052315B0068C1D4 /* LaunchScreen.storyboard */ = {
+		6BB4AB4C1B7A5D4200967615 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EAAE56C22052315B0068C1D4 /* Base */,
+				6BB4AB4D1B7A5D4200967615 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6BB4ABC01B8291D600967615 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB4ABBF1B8291D600967615 /* Base */,
+				6BB4ABC11B8291D800967615 /* en */,
+				6BB4ABC21B8291D900967615 /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EAAE56DB2052315C0068C1D4 /* Debug */ = {
+		6BB4AB661B7A5D4200967615 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -381,52 +391,40 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		EAAE56DC2052315C0068C1D4 /* Release */ = {
+		6BB4AB671B7A5D4200967615 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -434,150 +432,136 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		EAAE56DE2052315C0068C1D4 /* Debug */ = {
+		6BB4AB691B7A5D4200967615 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35KQ284J6K;
 				INFOPLIST_FILE = WorldTrotter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.onemargaro.WorldTrotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		EAAE56DF2052315C0068C1D4 /* Release */ = {
+		6BB4AB6A1B7A5D4200967615 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35KQ284J6K;
 				INFOPLIST_FILE = WorldTrotter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.onemargaro.WorldTrotter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
-		EAAE56E12052315C0068C1D4 /* Debug */ = {
+		6BB4AB6C1B7A5D4200967615 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35KQ284J6K;
 				INFOPLIST_FILE = WorldTrotterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.onemargaro.WorldTrotterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.WorldTrotterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldTrotter.app/WorldTrotter";
 			};
 			name = Debug;
 		};
-		EAAE56E22052315C0068C1D4 /* Release */ = {
+		6BB4AB6D1B7A5D4200967615 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35KQ284J6K;
 				INFOPLIST_FILE = WorldTrotterTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.onemargaro.WorldTrotterTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.WorldTrotterTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldTrotter.app/WorldTrotter";
 			};
 			name = Release;
 		};
-		EAAE56E42052315C0068C1D4 /* Debug */ = {
+		6BB4AB6F1B7A5D4200967615 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35KQ284J6K;
 				INFOPLIST_FILE = WorldTrotterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.onemargaro.WorldTrotterUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.WorldTrotterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = WorldTrotter;
+				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		EAAE56E52052315C0068C1D4 /* Release */ = {
+		6BB4AB701B7A5D4200967615 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35KQ284J6K;
 				INFOPLIST_FILE = WorldTrotterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.onemargaro.WorldTrotterUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bignerdranch.WorldTrotterUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = WorldTrotter;
+				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAAE56B02052315B0068C1D4 /* Build configuration list for PBXProject "WorldTrotter" */ = {
+		6BB4AB3B1B7A5D4200967615 /* Build configuration list for PBXProject "WorldTrotter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAAE56DB2052315C0068C1D4 /* Debug */,
-				EAAE56DC2052315C0068C1D4 /* Release */,
+				6BB4AB661B7A5D4200967615 /* Debug */,
+				6BB4AB671B7A5D4200967615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAAE56DD2052315C0068C1D4 /* Build configuration list for PBXNativeTarget "WorldTrotter" */ = {
+		6BB4AB681B7A5D4200967615 /* Build configuration list for PBXNativeTarget "WorldTrotter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAAE56DE2052315C0068C1D4 /* Debug */,
-				EAAE56DF2052315C0068C1D4 /* Release */,
+				6BB4AB691B7A5D4200967615 /* Debug */,
+				6BB4AB6A1B7A5D4200967615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAAE56E02052315C0068C1D4 /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
+		6BB4AB6B1B7A5D4200967615 /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAAE56E12052315C0068C1D4 /* Debug */,
-				EAAE56E22052315C0068C1D4 /* Release */,
+				6BB4AB6C1B7A5D4200967615 /* Debug */,
+				6BB4AB6D1B7A5D4200967615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAAE56E32052315C0068C1D4 /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */ = {
+		6BB4AB6E1B7A5D4200967615 /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAAE56E42052315C0068C1D4 /* Debug */,
-				EAAE56E52052315C0068C1D4 /* Release */,
+				6BB4AB6F1B7A5D4200967615 /* Debug */,
+				6BB4AB701B7A5D4200967615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EAAE56AD2052315B0068C1D4 /* Project object */;
+	rootObject = 6BB4AB381B7A5D4200967615 /* Project object */;
 }

@@ -19,15 +19,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Set the view's delegate
         sceneView.delegate = self
-        
+        sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
         // Show statistics such as fps and timing information
-        sceneView.showsStatistics = true
-        
+//        sceneView.showsStatistics = true
+      
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        
+//        let scene = SCNScene(named: "art.scnassets/solar.scn")!
+      
         // Set the scene to the view
-        sceneView.scene = scene
+//        sceneView.scene = scene
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -62,6 +62,27 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         return node
     }
 */
+  
+  func addPlane(_ anchor: ARPlaneAnchor){
+    let geometry = SCNPlane(width: CGFloat(anchor.extent.x), height: CGFloat(anchor.extent.z))
+    let node = SCNNode(geometry: geometry)
+    
+//    let planePosition = anchor.transform.colums.3
+//    node.position = SCNVector(planePosition.x, planePosition.y, planePosition.z)
+//    node.scale
+//
+    sceneView.scene.rootNode.addChildNode(node)
+  }
+  
+  func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+    guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
+    print(planeAnchor)
+    addPlane(planeAnchor)
+  }
+  
+  func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
+    
+  }
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user
