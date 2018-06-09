@@ -13,3 +13,7 @@
 ### Ejercicios:
 
 * Interfaz de perfil [aqui](https://github.com/onemargaro/diplomado20182/tree/master/Tasks/xcode/SimpleProfile)
+
+### Entregables:
+
+* Tareas del diplomado [aqui](https://github.com/onemargaro/diplomado20182/tree/master/Tasks/xcode/delivery)

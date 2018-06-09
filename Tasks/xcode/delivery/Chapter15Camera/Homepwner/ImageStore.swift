@@ -10,7 +10,7 @@ import UIKit
 
 class ImageStore {
 
-    let cache = NSCache<AnyObject, UIImage>()
+    let cache = NSCache<NSString, UIImage>()
 
     func setImage(_ image: UIImage, forKey key: String) {
         cache.setObject(image, forKey: key as NSString)
